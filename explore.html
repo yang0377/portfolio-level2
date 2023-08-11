@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://kit.fontawesome.com/5f23fef3f2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;700&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header role="banner">
+      <!-- create the navigation section -->
+      <div>
+        <nav class="navbar navbar-expand-md" role="navigation">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <picture>
+                <source srcset="images/logo-md-3x.png" media="(min-width: 1080px)">
+                <source srcset="images/logo-sm.png" media="(max-width: 430px)">
+                <img src="images/logo-sm-2x.png" alt="logo">
+              </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body navigation">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link active" aria-current="page" href="explore.html">Photography</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Design</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>           
+      </div>
+    </header>
+    <main>
+      <!-- sidebar fixed -->
+      <div>
+        <aside>
+          <ul class="fixnav">
+            <li class="fixexplore">
+              <a href="explore.html">Explore <i class="fa-solid fa-chevron-right"></i></a>
+            </li>
+            <li class="fixcontact">
+              <a href="contact.html">Contact <i class="fa-solid fa-chevron-right"></i></a>
+            </li>
+          </ul>
+        </aside>
+        <aside class="backtop">
+          <a href="#top">
+            <i class="fa-solid fa-angles-up"></i>
+          </a>
+          <p class="hide">Back to Top</p>
+        </aside>
+      </div>
+      <!-- set the aside content -->
+      <div class="explorehead justify-content-center row">
+          
+        <div class="exploreaside col-md-2 order-md-1 border-bottom">
+          <div class="explorecamera row col-md-12">
+            <picture>
+              <source srcset="images/camera-720_x_1079.png" media="(min-width: 1080px)">
+              <source srcset="images/camera-320_x_479.png" media="(max-width: 430px)">
+              <img src="images/camera-480_x_720.png" alt="explore-cover">
+            </picture>
+          </div>
+
+          <div class="photography row col-md-12 pb-3">
+            <h1 role="heading">Photography</h1>
+          </div>
+
+          <div class="design row col-md-12 mt-md-5">
+            <h2 class="text-break">
+              <a href="design.html">Design<i class="fa-solid fa-chevron-right"></i></a>
+            </h2>
+          </div>
+        </div>
+
+        <div class="explorecover col-md-10">
+          <picture>
+            <source srcset="images/explore-cover-landscape-1920_x_1279.png" media="(min-width: 1080px)">
+            <source srcset="images/explore-cover-480_x_720.png" media="(max-width: 430px)">
+            <img src="images/explore-cover-landscape-1024_x_682.png" alt="explore-cover">
+          </picture> 
+        </div>
+      </div>
+
+      <!-- galleries -->
+      <div class="gallerycontainer ps-5">
+        <div class="row py-5 my-lg-5">
+          <div class="sidecontainer col-2 order-1">
+            <h2 class="exploreside" role="heading">DOCUMENTARY</h2>
+          </div>
+
+          <div class="gallerypic col-10">
+            <div class="albums row col-12">
+              <picture class="col-lg-8">
+                <source srcset="images/documentary1-1024_x_682.png" media="(min-width: 1080px)">
+                <source srcset="images/documentary1-480_x_320.png" media="(max-width: 430px)">
+                <img src="images/documentary1-1024_x_682.png" alt="documentary photo">
+              </picture>
+              <div class="albumtext1 pt-2 col-lg-4">
+                <a href="#">Gallery of Documentary Photography</a>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <div class="row py-5 my-lg-5">
+          <div class="sidecontainer col-2 order-1">
+            <h2 class="exploreside" role="heading">PORTRAIT</h2>
+          </div>
+
+          <div class="gallerypic col-10">
+            <div class="albums row col-12">
+              <picture class="col-lg-8 order-lg-1">
+                <source srcset="images/portrait4-1024_x_682.png" media="(min-width: 1080px)">
+                <source srcset="images/portrait4-480_x_319.png" media="(max-width: 430px)">
+                <img src="images/portrait4-720_x_480.png" alt="portrait of a girl">
+              </picture>
+              <div class="albumtext2 pt-2 col-lg-4">
+                <a href="#">Gallery of Portrait Photography</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-5 my-lg-5">
+          <div class="sidecontainer col-2 order-1">
+            <h2 class="exploreside" role="heading">PRODUCT</h2>
+          </div>
+
+          <div class="gallerypic col-10">
+            <div class="albums row col-12">
+              <picture class="col-lg-8">
+                <source srcset="images/product1-1024_x_682.png" media="(min-width: 1080px)">
+                <source srcset="images/product1-480_x_319.png" media="(max-width: 430px)">
+                <img src="images/product1-720_x_480.png" alt="portrait of a girl">
+              </picture>
+              <div class="albumtext1 pt-2 col-lg-4">
+                <a href="#">Gallery of Product Photography</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-5 my-lg-5">
+          <div class="sidecontainer col-2 order-1">
+            <h2 class="exploreside" role="heading">STREET</h2>
+          </div>
+
+          <div class="gallerypic col-10">
+            <div class="albums row col-12">
+              <picture class="col-lg-8 order-lg-1">
+                <source srcset="images/street-1024_x_682.png" media="(min-width: 1080px)">
+                <source srcset="images/street-480_x_319.png" media="(max-width: 430px)">
+                <img src="images/street-720_x_480.png" alt="reflection of a bridge">
+              </picture>
+              <div class="albumtext2 pt-2 col-lg-4">
+                <a href="#">Gallery of Street Photography</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>     
+    </main>
+
+    <footer class="row" role="contentinfo">
+      <picture>
+        <source srcset="images/logo-md-3x.png" media="(min-width: 1080px)">
+        <source srcset="images/logo-sm.png" media="(max-width: 430px)">
+        <img class="col-1 offset-10" src="images/logo-sm-2x.png" alt="logo">
+      </picture>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>
